@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OSgraphicsExe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/OSgraphicsExe.res" /d "_DEBUG" "D:\school\homework\操作系统\OSexperiment\OSgraphics\OSgraphicsExe.rc"" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP72CE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/OSgraphicsExe.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\Arc.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\AreaFtr.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\Circle.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\Cirque.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\Feature.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\LineFtr.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\MainFrm.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\MyTimer.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\OSgraphicsExe.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\OSgraphicsExeDoc.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\OSgraphicsExeView.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\PointFtr.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\Poly.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\PolyLine.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\Rectangle.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\Square.cpp"
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP72CE.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP72DF.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/OSgraphicsExe.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\school\homework\操作系统\OSexperiment\OSgraphics\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP72DF.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP72E0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/OSgraphicsExe.pdb" /debug /machine:I386 /out:"Debug/OSgraphicsExe.exe" /pdbtype:sept 
+".\Debug\Arc.obj"
+".\Debug\AreaFtr.obj"
+".\Debug\Circle.obj"
+".\Debug\Cirque.obj"
+".\Debug\Feature.obj"
+".\Debug\LineFtr.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyTimer.obj"
+".\Debug\OSgraphicsExe.obj"
+".\Debug\OSgraphicsExeDoc.obj"
+".\Debug\OSgraphicsExeView.obj"
+".\Debug\PointFtr.obj"
+".\Debug\Poly.obj"
+".\Debug\PolyLine.obj"
+".\Debug\Rectangle.obj"
+".\Debug\Square.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Text.obj"
+".\Debug\OSgraphicsExe.res"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP72E0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Arc.cpp
+AreaFtr.cpp
+Circle.cpp
+Cirque.cpp
+Feature.cpp
+LineFtr.cpp
+MainFrm.cpp
+MyTimer.cpp
+OSgraphicsExe.cpp
+OSgraphicsExeDoc.cpp
+OSgraphicsExeView.cpp
+PointFtr.cpp
+Poly.cpp
+PolyLine.cpp
+Rectangle.cpp
+Square.cpp
+Text.cpp
+D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp(44) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp(45) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp(50) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp(65) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp(65) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp(78) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp(78) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp(33) : warning C4101: 'cc1' : unreferenced local variable
+D:\school\homework\操作系统\OSexperiment\OSgraphics\Text.cpp(33) : warning C4101: 'cc2' : unreferenced local variable
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+OSgraphicsExe.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
